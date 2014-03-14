@@ -1,0 +1,1 @@
+Parent entity (mapped supperclass):
