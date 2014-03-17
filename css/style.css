@@ -73,6 +73,10 @@ button, .button {
   tab-size: 2; /* Set tab size to 2 spaces */
 }
 
+.bd img {
+  border:1px solid #021a40;
+}
+
 dl.tabs dd a {
   padding: .2rem 1rem;
   border: 1px solid #ccc;
@@ -116,8 +120,6 @@ div.image-rectangle {
   background: #ffffff;
   min-height: 15rem;
   margin-top: 44px;
-  border-width: 1px;
-  border-color: Black;
 }
 
 .ft {
