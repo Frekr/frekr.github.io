@@ -116,6 +116,8 @@ div.image-rectangle {
   background: #ffffff;
   min-height: 15rem;
   margin-top: 44px;
+  border-width: 1px;
+  border-color: Black;
 }
 
 .ft {
