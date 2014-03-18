@@ -125,7 +125,12 @@ div.image-tab {
 }
 
 .download-trial-text{
-  font-size:120%;
+  font-size 120%;
+}
+
+.model-caption{
+  font-size: 80%;
+  margin-right: auto;
 }
 
 .ft {
