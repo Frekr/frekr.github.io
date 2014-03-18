@@ -65,8 +65,17 @@ button, .button {
   margin: 0 1.5rem 0 .5rem;
 }
 
-.bd h1,h2,h3,h4 {
- color: #037EB9;
+.bd h1,h2,h3 {
+  color: #037EB9;
+}
+
+.bd h2 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.bd h4 {
+  font-weight: normal;
 }
 
 .bd pre {
