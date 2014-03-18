@@ -65,7 +65,7 @@
 <!-- display the content -->
 
    <div class="row">
-      <div class="large-8 columns">
+      <div class="large-{% if imgfile != '' %}8{% else %}12{% endif %} columns">
         
         <dl class="tabs" data-tab>
           {% if isXml == 'true' %}<dd class="{{xmlFlag}}"><a href="#{{panelIdXml}}">XML</a></dd>{% endif %}
