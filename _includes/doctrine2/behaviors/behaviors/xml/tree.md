@@ -21,8 +21,8 @@
     <field name="right" column="rgt" type="integer">
       <gedmo:tree-right/>
     </field>
-      <field name="root" type="integer" nullable="true">
-    <gedmo:tree-root/>
+    <field name="root" type="integer" nullable="true">
+      <gedmo:tree-root/>
     </field>
     <field name="level" column="lvl" type="integer">
       <gedmo:tree-level/>
