@@ -1,4 +1,4 @@
-```yml
+~~~YAML
 ---
 Entity\Article:
   type: entity

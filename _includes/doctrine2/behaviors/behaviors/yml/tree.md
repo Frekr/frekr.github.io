@@ -1,4 +1,4 @@
-~~~yml
+~~~YAML
 ---
 Entity\Category:
   type: entity

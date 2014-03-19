@@ -1,4 +1,4 @@
-~~~php
+```PHP
 <?php
 namespace Entity;
 
@@ -64,4 +64,4 @@ class Article implements Translatable
         $this->locale = $locale;
     }
 }
-~~~
+```
