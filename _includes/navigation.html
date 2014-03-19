@@ -5,10 +5,10 @@
       </div>
       <div class="large-7 columns">
         <ul class="button-group radius">
-          <li><a href="/" class="small button {% if framework != 'doctrine2' %}secondary{% endif %}">Doctrine 2</a></li>
-          <li><a href="/doctrine/" class="small button disabled {% if framework != 'doctrine1' %}secondary{% endif %}">Doctrine</a></li>
-          <li><a href="/propel/" class="small button disabled {% if framework != 'propel' %}secondary{% endif %}">Propel</a></li>
-          <li><a href="/cakephp/" class="small button disabled {% if framework != 'cakephp' %}secondary{% endif %}">Cake PHP</a></li>
+          <li><a href="/" class="small button {% if framework != 'Doctrine2' %}secondary{% endif %}">Doctrine 2</a></li>
+          <li><a href="/doctrine/" class="small button disabled {% if framework != 'Doctrine' %}secondary{% endif %}">Doctrine</a></li>
+          <li><a href="/propel/" class="small button disabled {% if framework != 'Propel' %}secondary{% endif %}">Propel</a></li>
+          <li><a href="/cakephp/" class="small button disabled {% if framework != 'CakePHP' %}secondary{% endif %}">Cake PHP</a></li>
           <li><a href="/about/" class="small button disabled {% if framework != 'about' %}secondary{% endif %}">About</a></li>
         </ul>
       </div>
@@ -20,10 +20,10 @@
         <div class="large-12 columns">
           <dl class="sub-nav">
             <dd data-magellan-arrival="build"><a href="#top">Top</a></dd>
-            {% if framework == 'doctrine2' %}{% include navigation_doctrine2.html %}{% endif %}
-            {% if framework == 'doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
-            {% if framework == 'cakephp' %}{% include navigation_general.html %}{% endif %}
-            {% if framework == 'propel' %}{% include navigation_general.html %}{% endif %}
+            {% if framework == 'Doctrine2' %}{% include navigation_doctrine2.html %}{% endif %}
+            {% if framework == 'Doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
+            {% if framework == 'CakePHP' %}{% include navigation_general.html %}{% endif %}
+            {% if framework == 'Propel' %}{% include navigation_general.html %}{% endif %}
             {% if framework == 'about' %}{% include navigation_about.html %}{% endif %}
           </dl>
         </div>
