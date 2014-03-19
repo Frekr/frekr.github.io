@@ -10,9 +10,11 @@ body2 {
 }
 
 .hd h1,
-.hd h1 a {
+.hd h1 a,
+.hd h3 a {
   font-size: 140%;
   color: #000000;
+  text-decoration:none;
 }
 
 /*
@@ -34,6 +36,10 @@ padding-bottom: 0.5375rem;
 padding-left: 1.05rem;
 }
 */
+
+a {
+  text-decoration: underline;
+}
 
 button, .button {
   background: #0080BD;
@@ -72,8 +78,7 @@ button, .button {
 .bd h2 {
   border-bottom: 1px solid #ccc;
   margin-bottom: 1.5rem;
-  color: #037EB9;
-}
+ }
 
 .bd h4 {
   font-weight: normal;
@@ -93,10 +98,12 @@ dl.tabs dd a {
   padding: .2rem 1rem;
   border: 1px solid #ccc;
   background: #E6E6E6;
+  background: #E6E6E6;
   color: black;
   margin-right: .1rem;
   border-bottom-style: none;
   margin-top: .7rem;
+  text-decoration: none;
 }
 
 dl.tabs dd.active a {
