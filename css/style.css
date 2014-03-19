@@ -37,9 +37,7 @@ padding-left: 1.05rem;
 }
 */
 
-a {
-  text-decoration: underline;
-}
+
 
 button, .button {
   background: #0080BD;
@@ -71,6 +69,10 @@ button, .button {
   margin: 0 1.5rem 0 .5rem;
 }
 
+.hd a {
+  text-decoration: underline;
+}
+
 .bd h1,h2,h3 {
   color: #037EB9;
 }
@@ -80,6 +82,10 @@ button, .button {
   margin-bottom: 1.5rem;
  }
 
+.bd h3 a {
+ text-decoration: none;
+ }
+ 
 .bd h4 {
   font-weight: normal;
 }
@@ -146,7 +152,7 @@ div.image-tab {
 }
 
 .image-caption{
-  font-size: 70%;
+  font-size: 80%;
   margin-right: 0px;
   text-align: center;
   font-style: italic;
