@@ -1,1 +1,1 @@
-One to one inverse side with all properties:
+Many to one inverse side with all properties:
