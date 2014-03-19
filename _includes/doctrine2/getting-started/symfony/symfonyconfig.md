@@ -1,7 +1,7 @@
 ####Configuring Database Connections
 
 Configure `config/databases.yml` for database connection:
-~~~
+~~~YAML
 all:
   doctrine:
     class: sfDoctrineDatabase
@@ -16,7 +16,7 @@ all:
 ####Configuring Your Schema
 
 Below is an example of a simple User entity:
-~~~
+~~~YAML
 # config/doctrine/schema.yml
  
 Models\User:
