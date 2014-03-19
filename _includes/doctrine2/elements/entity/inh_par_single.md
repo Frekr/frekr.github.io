@@ -1,1 +1,0 @@
-Parent entity (single table):
