@@ -83,8 +83,8 @@ button, .button {
 }
 
 .bd .image {
-   padding:1px;
-   border:1px solid #ccc;
+   padding:0px;
+   border:2px solid #ccc;
    background-color:#fff;
 }
 
