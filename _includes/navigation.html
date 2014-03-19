@@ -14,19 +14,19 @@
       </div>
     </div>
 
-
-    <div class="magellan" data-magellan-expedition="fixed">
-      <div class="row">
-        <div class="large-12 columns">
-          <dl class="sub-nav">
-            <dd data-magellan-arrival="build"><a href="#top">Top</a></dd>
-            {% if framework == 'Doctrine2' %}{% include navigation_doctrine2.html %}{% endif %}
-            {% if framework == 'Doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
-            {% if framework == 'CakePHP' %}{% include navigation_general.html %}{% endif %}
-            {% if framework == 'Propel' %}{% include navigation_general.html %}{% endif %}
-            {% if framework == 'about' %}{% include navigation_about.html %}{% endif %}
-          </dl>
+    {% if framework != 'about' %}
+      <div class="magellan" data-magellan-expedition="fixed">
+        <div class="row">
+          <div class="large-12 columns">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="build"><a href="#top">Top</a></dd>
+              {% if framework == 'Doctrine2' %}{% include navigation_doctrine2.html %}{% endif %}
+              {% if framework == 'Doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
+              {% if framework == 'CakePHP' %}{% include navigation_general.html %}{% endif %}
+              {% if framework == 'Propel' %}{% include navigation_general.html %}{% endif %}
+            </dl>
+          </div>
         </div>
       </div>
-    </div>
+    {% endif %}
   </div>
