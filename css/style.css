@@ -72,6 +72,7 @@ button, .button {
 .bd h2 {
   border-bottom: 1px solid #ccc;
   margin-bottom: 1.5rem;
+  color: #037EB9;
 }
 
 .bd h4 {
@@ -84,7 +85,7 @@ button, .button {
 
 .bd .image {
    padding:0px;
-   border:1px solid #ccc;
+   border:1px solid #bbb;
    background-color:#fff;
 }
 
@@ -138,15 +139,18 @@ div.image-tab {
 }
 
 .image-caption{
-  font-size: 80%;
+  font-size: 70%;
   margin-right: 0px;
   text-align: center;
+  font-style: italic;
 }
 
-.image-caption-model{
-  font-size: 80%;
-  margin-right: 20px;
+.image-caption-model {
+  font-size: 70%;
+  margin-right: 10px;
   text-align: right;
+  font-style: italic;
+}
 
 .ft {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iIzI4MjgyOCI+PC9yZWN0Pgo8Y2lyY2xlIGN4PSIzIiBjeT0iNC4zIiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIzIiBjeT0iMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+CjxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxMi41IiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIxMC41IiBjeT0iMTEuMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+Cjwvc3ZnPg==");
