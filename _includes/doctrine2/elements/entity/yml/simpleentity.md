@@ -1,4 +1,4 @@
-~~~yml
+~~~yaml
 author:
   type: entity
   fields:

@@ -1,4 +1,4 @@
-~~~yml
+~~~yaml
 library\itemRecord:
   type: entity
   inheritanceType: JOINED
