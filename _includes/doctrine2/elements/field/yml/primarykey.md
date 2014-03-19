@@ -1,4 +1,4 @@
-~~~yml
+~~~yaml
   fields:
     id:
       id: true

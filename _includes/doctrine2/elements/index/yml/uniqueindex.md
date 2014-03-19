@@ -1,4 +1,4 @@
-~~~yml
+```YAML
 author:
   type: entity
   fields:
@@ -8,4 +8,4 @@ author:
   uniqueConstraints:
     ix_first_name_last_name_date:
       columns: [firstName, lastName, birthDate]
-~~~
+```
