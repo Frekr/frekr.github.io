@@ -1,5 +1,3 @@
-####Configuring Database Connections
-
 Configure `config/databases.yml` for database connection:
 ~~~YAML
 all:
@@ -13,7 +11,7 @@ all:
         dbname: doctrine
 ~~~
 
-####Configuring Your Schema
+####Configure Your Schema
 
 Below is an example of a simple User entity:
 ~~~YAML

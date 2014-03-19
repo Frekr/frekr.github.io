@@ -1,4 +1,3 @@
-Install:
 ~~~
 php composer.phar require doctrine/doctrine-orm-module:0.7.*
 ~~~

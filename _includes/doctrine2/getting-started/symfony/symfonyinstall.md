@@ -1,5 +1,3 @@
-####Installing
-
 First we need to install the plugin from SVN with the following command from the root of your project:
 
 ~~~
