@@ -1,4 +1,4 @@
-~~~YAML
+```YAML
 ---
 Document\Type:
   type: document
