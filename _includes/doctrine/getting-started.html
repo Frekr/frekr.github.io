@@ -3,15 +3,27 @@
 {% assign rootdir='doctrine/getting-started/' %}
 {% assign imgsource='/images/' %}
 
-<h2>Doctrine Installation</h2>
+<h2>Doctrine Installation SVN</h2>
 {% assign element='installation/' %}
 
-{% assign file='install.md' %}
+{% assign file='install-svn.md' %}
 {% assign imgfile=''%}
 {% assign usedtabs='' %}
 {% include section.html %}
 
-<h2>Doctrine configuration</h2>
+<h2>Doctrine Installation with PEAR package</h2>
+{% assign element='installation/' %}
+
+{% assign file='install-pear.md' %}
+{% assign imgfile=''%}
+{% assign usedtabs='' %}
+{% include section.html %}
+
+{% assign documentation='http://docs.doctrine-project.org/projects/doctrine1/en/latest/en/manual/getting-started.html#installing' %}
+{% assign tutorial='' %}
+{% include elem_docu.html%}
+
+<h2>Doctrine implementation</h2>
 <h3>Class loading</h3>
 {% assign file='config.md' %}
 {% assign imgfile=''%}
