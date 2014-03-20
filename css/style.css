@@ -38,7 +38,6 @@ padding-left: 1.05rem;
 */
 
 
-
 button, .button {
   background: #0080BD;
 }
@@ -84,10 +83,6 @@ button, .button {
 .bd h2 {
   border-bottom: 1px solid #ccc;
   margin-bottom: 1.5rem;
- }
-
-.bd h3 a {
- text-decoration: none;
  }
  
 .bd h4 {
@@ -182,9 +177,13 @@ div.image-tab {
 }
 
 .githublink { 
-position: fixed;
-top: 0;
-right: 0;
-display: block;
-z-index: 100;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: block;
+  z-index: 100;
 } 
+
+h3 a {
+  text-decoration: none;
+}
