@@ -24,26 +24,14 @@
 {% include elem_docu.html%}
 
 <h2>Doctrine implementation</h2>
-<h3>Class loading</h3>
+{% assign element='installation/' %}
+
 {% assign file='config.md' %}
 {% assign imgfile=''%}
 {% assign usedtabs='' %}
 {% include section.html %}
 
 {% assign documentation='http://doctrine-orm.readthedocs.org/en/latest/reference/configuration.html#class-loading' %}
-{% assign tutorial='' %}
-{% include elem_docu.html%}
-
-<h3>Entity Manager</h3>
-{% assign file='entitymanager.md' %}
-{% assign imgfile='model.png'%}
-{% assign usedtabs='xml, yml, php, more, link' %}
-{% include section.html %}
-
-<h3>Command line tool</h3>
-{% include doctrine2/getting-started/installation/commandline.html %}
-
-{% assign documentation='http://doctrine-orm.readthedocs.org/en/latest/reference/configuration.html#setting-up-the-commandline-tool' %}
 {% assign tutorial='' %}
 {% include elem_docu.html%}
 
