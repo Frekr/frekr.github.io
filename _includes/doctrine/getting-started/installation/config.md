@@ -1,4 +1,4 @@
-####Include dorctrine libraries
+####Include Doctrine libraries
 
 Find the `Doctrine.php` file containing the core class in the lib folder where you downloaded Doctrine.
 
