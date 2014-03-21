@@ -1,4 +1,4 @@
-~~~YAML
+```YAML
 ---
 Entity\Article:
   type: entity
@@ -22,4 +22,4 @@ Entity\Article:
       gedmo:
         timestampable:
           on: update
-~~~
+```

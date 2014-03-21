@@ -1,4 +1,4 @@
-~~~YAML
+```YAML
 ---
 Entity\Category:
   type: entity
@@ -49,4 +49,4 @@ Entity\Category:
       mappedBy: parent
       orderBy:
         lft: ASC
-~~~
+```
