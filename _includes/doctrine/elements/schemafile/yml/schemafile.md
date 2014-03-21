@@ -1,12 +1,27 @@
-~~~YAML
+```YAML
+book:
+  columns:
+    id:
+    cover:
+  inheritance:
+    extends: itemRecord
 itemRecord:
-  type: entity
-  fields:
-  indexes:
-  oneToOne:
-  oneToMany:
-  manyToOne:
-  manyToMany:
-  discriminatorColumn:
-  discriminatorMap:
-~~~
+  columns:
+    id:
+    name:
+    item:
+  relations:
+    Authors:
+author:
+  columns:
+    id:
+    firstName:
+    lastName:
+    birthDate:
+  relations:
+    ItemRecords:
+authorHasitemRecord:
+  columns:
+    author_id:
+    item_record_id:
+```
