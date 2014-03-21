@@ -1,10 +1,13 @@
 ```YAML
 author:
-  type: entity
-  fields:
+  columns:
     id:
-  manyToMany:
-    itemRecords:
-      targetEntity: itemRecord
-      mappedBy: authors
+      unique: true
+      primary: true
+  relations:
+    ItemRecords:
+      class: itemRecord
+      refClass: authorHasitemRecord
+      local: author_id
+      foreign: item_record_id
 ```
