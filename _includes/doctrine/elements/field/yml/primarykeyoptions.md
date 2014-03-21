@@ -5,6 +5,7 @@ itemRecord:
     id:
       id: true
       type: integer
+      length: 255
       column: itemRecord_id
       columnDefinition: itemRecord_id
       precision: 3

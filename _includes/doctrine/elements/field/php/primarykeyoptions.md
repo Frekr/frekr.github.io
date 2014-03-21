@@ -9,6 +9,7 @@ class itemRecord
      * @ORM\Column(
      *     type="integer",
      *     name="itemRecord_id",
+     *     length=255
      *     columnDefinition="itemRecord_id",
      *     precision=3,
      *     scale=3,

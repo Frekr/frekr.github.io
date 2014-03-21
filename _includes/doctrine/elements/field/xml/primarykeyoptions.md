@@ -1,5 +1,5 @@
 ~~~xml
-<id name="id" type="integer" column="itemRecord_id" 
+<id name="id" type="integer" length="255" column="itemRecord_id" 
 column-definition="itemRecord_id" precision="3" scale="3" version="true">
   <generator strategy="SEQUENCE"/>
   <sequence-generator 
