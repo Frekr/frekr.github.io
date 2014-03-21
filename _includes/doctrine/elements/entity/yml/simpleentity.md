@@ -1,19 +1,19 @@
 ~~~yaml
 author:
-  type: entity
-  fields:
+  columns:
     id:
-      id: true
-      type: integer
-      generator:
-        strategy: AUTO
+      unique: true
+      primary: true
+      type: integer(255)
+      notnull: true
     firstName:
       type: string
-      nullable: false
+      notnull: true
     lastName:
       type: string
-      nullable: false
+      notnull: true
     birthDate:
       type: string
-      nullable: true
+  relations:
+    ItemRecords:
 ~~~

@@ -1,11 +1,7 @@
 ```YAML
 author:
-  type: entity
-  fields:
-    firstName:
-    lastName:
-    birthDate:
-  uniqueConstraints:
+  indexes:
     ix_first_name_last_name_date:
-      columns: [firstName, lastName, birthDate]
+      fields: [firstName, lastName, birthDate]
+      type: unique
 ```

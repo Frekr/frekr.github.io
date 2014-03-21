@@ -1,6 +1,8 @@
 ~~~yaml
-  fields:
     id:
-      id: true
-      type: integer
+      unique: true
+      primary: true
+      type: integer(255)
+      notnull: true
+      autoincrement: true
 ~~~
