@@ -93,7 +93,7 @@ button, .button {
   tab-size: 2; /* Set tab size to 2 spaces */
 }
 
-.bd .image {
+.bd .image-element {
    padding:0px;
    border:1px solid #bbb;
    background-color:#fff;
