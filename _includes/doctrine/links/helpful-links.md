@@ -1,3 +1,0 @@
-- [Symfony Cheatsheet](http://www.symfony2cheatsheet.com/)
-- [Symfony Lab](http://www.symfonylab.com/)
-- [Roll'n'Api](http://rollnapi-tomanderson.rhcloud.com/)
