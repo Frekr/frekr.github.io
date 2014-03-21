@@ -1,4 +1,4 @@
-~~~yml
+~~~yaml
 ean:
   type: entity
   fields:

@@ -1,4 +1,4 @@
-~~~yml
+~~~yaml
 publisher:
   type: entity
   fields:
@@ -8,9 +8,4 @@ publisher:
     itemRecord:
       targetEntity: itemRecord
       mappedBy: publisher
-      fetch: EAGER
-      indexBy: id
-      cascade: ["all", "merge", "persist", "refresh", "remove"]
-      orderBy:
-        id: ASC
 ~~~
