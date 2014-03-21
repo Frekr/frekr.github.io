@@ -1,4 +1,4 @@
-~~~YAML
+```yaml
 ---
 Entity\Article:
   type: entity
@@ -28,4 +28,4 @@ Entity\Article:
   indexes:
     search_idx:
       columns: slug
-~~~
+```

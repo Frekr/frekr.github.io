@@ -1,4 +1,4 @@
-~~~YAML
+```yaml
 ---
 Entity\Article:
   type: entity
@@ -23,4 +23,4 @@ Entity\Article:
       type: text
       gedmo:
         - translatable
-~~~
+```

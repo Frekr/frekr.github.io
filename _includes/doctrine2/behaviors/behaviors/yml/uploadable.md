@@ -1,4 +1,4 @@
-```YAML
+```yaml
 ---
 Entity\File:
   type: entity
