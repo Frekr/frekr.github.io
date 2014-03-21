@@ -1,12 +1,10 @@
-~~~php
+~~~PHP
 <?php
-namespace library;
 use Doctrine\ORM\Mapping AS ORM;
 
 /**
- * @ORM\Entity(repositoryClass="Doctrine\ORM\EntityRepository")
+ * 
  * @ORM\Table(
- *     changeTrackingPolicy="DEFERRED_IMPLICIT",
  *     schema="item_record",
  *     name="item_record",
  *     options={
@@ -25,17 +23,17 @@ use Doctrine\ORM\Mapping AS ORM;
  *         @ORM\UniqueConstraint(name="ix_ean_publisher", columns={"itemRecord_publisherId","eanId"})
  *     }
  * )
- * @ORM\InheritanceType("JOINED")
- * @ORM\DiscriminatorColumn(name="item", type="string")
  * @ORM\DiscriminatorMap(
- *     {
- *     "itemRecord"="library\itemRecord",
- *     "book"="library\book",
- *     "magazine"="library\magazine",
- *     "audioRecord"="library\audioRecord"
- * }
+ *     {"itemRecord"="itemRecord","book"="book","magazine"="magazine","audioRecord"="audioRecord"}
  * )
+ * @ORM\DiscriminatorColumn(name="item", type="string")
+ * @ORM\InheritanceType("JOINED")
+ * 
+ * 
+ * 
  * @ORM\HasLifecycleCallbacks
+ * @ORM\ChangeTrackingPolicy("DEFERRED_IMPLICIT")
+ * @ORM\Entity(repositoryClass="Doctrine\ORM\EntityRepository")
  */
 class itemRecord
 {

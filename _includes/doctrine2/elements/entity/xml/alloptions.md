@@ -5,7 +5,7 @@ change-tracking-policy="DEFERRED_IMPLICIT"
 repository-class="Doctrine\ORM\EntityRepository" 
 schema="item_record" table="item_record">
     <id name="id"/>
-    <field name="name/>
+    <field name="name"/>
     <indexes/>
     <unique-constraints/>
     <lifecycle-callbacks/>
