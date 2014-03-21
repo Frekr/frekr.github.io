@@ -6,7 +6,7 @@ book:
       primary: true
   inheritance:
     extends: itemRecord
-    type: simple
+    type: concrete
     keyField: item
     keyValue: book
 ```    

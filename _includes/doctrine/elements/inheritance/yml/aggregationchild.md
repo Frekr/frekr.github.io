@@ -6,7 +6,7 @@ book:
       primary: true
   inheritance:
     extends: itemRecord
-    type: simple
+    type: column_aggregation
     keyField: item
     keyValue: book
 ```    

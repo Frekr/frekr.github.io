@@ -1,1 +1,1 @@
-Single table inheritance parrent:
+Single table inheritance parent:

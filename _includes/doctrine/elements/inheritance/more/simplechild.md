@@ -1,1 +1,1 @@
-additional information
+Single table inheritance child:
