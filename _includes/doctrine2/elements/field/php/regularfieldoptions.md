@@ -7,7 +7,6 @@ class itemRecord
     /**
      * @ORM\Column(
      *     type="string",
-     *     unique=true,
      *     length=255,
      *     nullable=false,
      *     name="itemRecord_name",
@@ -17,5 +16,6 @@ class itemRecord
      *     options={"comment":"this is field","unsigned":true,"version":3}
      * )
      */
-    private $name;
+    private $item;
+}    
 ~~~

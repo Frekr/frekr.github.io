@@ -2,9 +2,8 @@
 itemRecord:
   type: entity
   fields:
-    name:
+    item:
       type: string
-      unique: true
       length: 255
       nullable: false
       column: itemRecord_name

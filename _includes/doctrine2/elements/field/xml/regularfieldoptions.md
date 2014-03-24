@@ -1,10 +1,5 @@
 ~~~xml
-<field name="name" type="string" 
-unique="true" length="255" 
-nullable="false" column="itemRecord_name" 
-column-definition="itemRecord_name" 
-precision="1" scale="1" 
-version="false">
+<field name="item" type="string" length="255" nullable="false" column="itemRecord_name" column-definition="itemRecord_name" precision="1" scale="1" version="false">
   <generator>
     <strategy>UUID</strategy>
   </generator>
