@@ -1,17 +1,28 @@
-First we need to install the plugin from SVN with the following command from the root of your project:
+For installation with Symfony 2.1 and newer select one ofthe following methods:
 
-~~~
-$ svn co http://svn.symfony-project.org/plugins/sfDoctrinePlugin/branches/1.3-2.0/ plugins/sfDoctrine2Plugin
-~~~
+#### Dependencies and bin/vendors
 
-Now you just need to enable the plugin:
+Add the following snippets to "deps" files:
 
-~~~PHP
-class ProjectConfiguration extends sfProjectConfiguration
-{
-  public function setup()
-  {
-    $this->enablePlugins('sfDoctrine2Plugin');
-  }
-}
-~~~
+```
+    [doctrine-mongodb]
+        git=http://github.com/doctrine/dbal.git
+
+    [doctrine-mongodb-odm]
+        git=http://github.com/doctrine/doctrine2.git
+
+    [DoctrineBundle]
+        git=http://github.com/doctrine/DoctrineBundle.git
+        target=/bundles/Doctrine/Bundle/DoctrineBundle
+```
+####Composer
+
+Add the following dependencies to your projects composer.json file:
+
+```json
+    "require": {
+        # ..
+        "doctrine/doctrine-bundle": "~1.2"
+        # ..
+    }
+```    
