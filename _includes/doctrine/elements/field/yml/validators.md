@@ -2,8 +2,6 @@
   column:
     item:
       notnull: true
-      values: [item_archived, item_new, item_available, item_cannot_lend]
-      collation: utf8_unicode_ci
       fixed: true
       notblank: true
       country: false

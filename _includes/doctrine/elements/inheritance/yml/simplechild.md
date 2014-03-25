@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 book:
   columns:
     id:
@@ -9,4 +9,4 @@ book:
     type: simple
     keyField: item
     keyValue: book
-```    
+~~~   
