@@ -9,4 +9,4 @@ book:
     type: simple
     keyField: item
     keyValue: book
-~~~   
+~~~

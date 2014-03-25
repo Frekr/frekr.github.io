@@ -9,4 +9,4 @@ book:
     type: column_aggregation
     keyField: item
     keyValue: book
-~~~   
+~~~
