@@ -1,25 +1,36 @@
 ~~~yaml
-library\itemRecord:
-  type: entity
-  inheritanceType: JOINED
-  changeTrackingPolicy: DEFERRED_IMPLICIT
-  repositoryClass: Doctrine\ORM\EntityRepository
-  schema: item_record
-  table: item_record
-  fields:
-  indexes:
-  uniqueConstraints:
-  lifecycleCallbacks:
+itemRecord:
   options:
     charset: utf8
+    type: INNODB
     collate: utf8_unicode_ci
-    comment: library record of a work
-    temporary: false
-    engine: InnoDB
-  oneToOne:
-  oneToMany:
-  manyToOne:
-  manyToMany:
-  discriminatorColumn:
-  discriminatorMap:
+  tableName: item_record
+  attributes:
+    export: none
+  columns:
+    id:
+      unique: true
+      primary: true
+      type: integer(255)
+    publisherId:
+      type: integer(255)
+    eanId:
+      unique: true
+      type: integer
+    name:
+      unique: true
+      type: string(255)
+    item:
+      default: item_new
+      type: string(255)
+  indexes:
+    ix_name_ean:
+      fields: [name, eanId]
+      type: unique
+    ix_name:
+      fields: [name]
+  relations:
+    publisher:
+    ean:
+    authors:
 ~~~
