@@ -26,4 +26,4 @@ Entity\Article:
       gedmo:
         ipTraceable:
           on: update
-```          
+```

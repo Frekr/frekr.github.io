@@ -22,4 +22,4 @@ Entity\Article:
         - versioned
     content:
       type: text
-```      
+```

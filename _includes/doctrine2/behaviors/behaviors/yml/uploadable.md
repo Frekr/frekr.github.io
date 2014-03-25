@@ -33,4 +33,4 @@ Entity\File:
       type: decimal
       gedmo:
         - uploadableFileSize
-```        
+```

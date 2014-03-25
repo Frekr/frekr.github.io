@@ -18,4 +18,4 @@ Entity\Article:
     deletedAt:
       type: date
       nullable: true
-```      
+```

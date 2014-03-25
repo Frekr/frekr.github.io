@@ -22,4 +22,4 @@ Entity\Article:
       gedmo:
         blameable:
           on: update
-```          
+```
