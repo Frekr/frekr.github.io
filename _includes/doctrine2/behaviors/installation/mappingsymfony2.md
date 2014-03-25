@@ -76,4 +76,4 @@ orm:
             alias: Gedmo
             prefix: Gedmo\Tree\Entity
             dir: "%kernel.root_dir%/../vendor/gedmo/doctrine-extensions/lib/Gedmo/Tree/Entity"
-```            
+```
