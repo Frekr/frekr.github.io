@@ -1,26 +1,10 @@
-```yaml
----
-Entity\Article:
-  type: entity
-  table: articles
-  gedmo:
-    translation:
-      locale: localeField
-# using specific personal translation class:
-#     entity: Translatable\Fixture\CategoryTranslation
-  id:
-    id:
-      type: integer
-      generator:
-        strategy: AUTO
-  fields:
-    title:
+~~~yaml
+  actAs:
+    I18n:
+      className: "%CLASS%Translation"
+      generateFiles: false
+      length: 2
+      pluginTable: false
+      table: false
       type: string
-      length: 64
-      gedmo:
-        - translatable
-    content:
-      type: text
-      gedmo:
-        - translatable
-```
+~~~

@@ -1,31 +1,13 @@
-```yaml
----
-Entity\Article:
-  type: entity
-  table: articles
-  id:
-    id:
-      type: integer
-      generator:
-        strategy: AUTO
-  fields:
-    title:
+~~~yaml
+  actAs:
+    Sluggable:
+      alias: slug
+      builder: Doctrine_Inflector, urlize
+      canUpdate: false
+      indexName: sluggable
+      length: 255
+      name: slug
       type: string
-      length: 64
-    code:
-      type: string
-      length: 16
-    slug:
-      type: string
-      length: 128
-      gedmo:
-        slug:
-          separator: _
-          style: camel
-          fields:
-            - title
-            - code
-  indexes:
-    search_idx:
-      columns: slug
-```
+      unique: true
+      uniqueIndex: true
+~~~
