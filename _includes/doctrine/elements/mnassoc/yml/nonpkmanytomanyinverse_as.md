@@ -16,4 +16,4 @@ author:
       refClass: author2itemRecord
       local: author_first_name
       foreign: item_record_id
-~~~      
+~~~
