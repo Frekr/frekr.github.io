@@ -1,4 +1,4 @@
-Define the following requirement in your 'composer.json' file:
+Define the following requirement in your `composer.json` file:
 ~~~PHP
 {
     "require": {
