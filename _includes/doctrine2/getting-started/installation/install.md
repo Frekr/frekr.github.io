@@ -1,6 +1,6 @@
 Define the following requirement in your `composer.json` file:
 
-~~~
+~~~php
 
 {
     "require": {
