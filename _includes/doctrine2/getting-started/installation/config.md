@@ -6,5 +6,4 @@ Autoloading is taken care of by Composer. You just have to include the composer 
 // bootstrap.php
 // Include Composer Autoload (relative to project root).
 require_once "vendor/autoload.php";
-
 ~~~
