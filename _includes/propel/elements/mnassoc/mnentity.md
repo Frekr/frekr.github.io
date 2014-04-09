@@ -1,1 +1,1 @@
-Does not exist as a Doctrine2 object, it is handled internally.
+Does not exist as a Propel object, it is handled internally.
