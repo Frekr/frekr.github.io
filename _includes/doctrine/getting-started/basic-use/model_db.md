@@ -10,6 +10,7 @@ Doctrine_Core::createTablesFromModels('models');
 ~~~
 
 Regenerate the database from the schemafiles running the command:
+
 ~~~
 php generate.php
 ~~~

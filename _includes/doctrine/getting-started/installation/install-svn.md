@@ -7,6 +7,7 @@ svn co http://svn.doctrine-project.org/branches/1.2 .
 ~~~
 
 To update Doctrine execute the following command from your terminal:
+
 ~~~
 svn update
 ~~~
@@ -14,21 +15,25 @@ svn update
 ###SVN Externals
 
 Navigating to your checked out project:
+
 ~~~
 cd /var/www/my_project
 ~~~
 
 Setup Doctrine as an SVN external:
+
 ~~~
 svn propedit svn:externals lib/vendor
 ~~~
 
 The above command will open editor. Place the following text inside and save:
+
 ~~~
 doctrine http://svn.doctrine-project.org/branches/1.2/lib
 ~~~
 
 Install Doctrine by doing an svn update:
+
 ~~~
 svn update
 ~~~
