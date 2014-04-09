@@ -1,12 +1,7 @@
 ~~~YAML
-itemRecord:
-  type: entity
-  fields:
-  indexes:
-  oneToOne:
-  oneToMany:
-  manyToOne:
-  manyToMany:
-  discriminatorColumn:
-  discriminatorMap:
+propel:
+  book:
+  itemRecordHasAuthor:
+  itemRecord:
+  author:
 ~~~

@@ -9,7 +9,19 @@
 
 {% assign file='schemafile.md' %}
 {% assign imgfile='model.png'%}
-{% assign usedtabs='yml' %}
+{% assign usedtabs='yml, xml' %}
+{% include section.html %}
+
+{% include elem_docu.html%}
+
+<h2>Database element</h2>
+{% assign element='module/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+
+{% assign file='module.md' %}
+{% assign imgfile='model.png'%}
+{% assign usedtabs='yml, xml' %}
 {% include section.html %}
 
 {% include elem_docu.html%}
