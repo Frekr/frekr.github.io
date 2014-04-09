@@ -15,6 +15,7 @@ Add the following snippets to "deps" files:
         git=http://github.com/doctrine/DoctrineBundle.git
         target=/bundles/Doctrine/Bundle/DoctrineBundle
 ~~~
+
 ####Composer
 
 Add the following dependencies to your projects composer.json file:
