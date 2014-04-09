@@ -1,1 +1,1 @@
-Simple entity with a primary key and several fields:
+Simple table element with a primary key and several fields:

@@ -1,1 +1,1 @@
-Regular field with all options set:
+Column with all options set:

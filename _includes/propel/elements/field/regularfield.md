@@ -1,1 +1,1 @@
-Regular field definition:
+Regular column definition:

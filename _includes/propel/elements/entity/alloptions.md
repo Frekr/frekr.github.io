@@ -1,1 +1,1 @@
-Entity with all options defined:
+Table element with all options defined:
