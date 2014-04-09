@@ -1,15 +1,10 @@
 ~~~yaml
-itemRecord:
-  columns:
+  itemRecord:
     id:
-      unique: true
-      primary: true
+      primaryKey: true
     eanId:
-      unique: true
       type: integer
-    ean:
-      class: ean
-      foreignAlias: itemRecord
-      local: eanId
-      foreign: id
+      foreignTable: ean
+      foreignReference: id
 ~~~
+

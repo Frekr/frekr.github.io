@@ -1,9 +1,5 @@
 ~~~yaml
-ean:
-  columns:
+  ean:
     id:
-      unique: true
-      primary: true
-      unique: true
-      type: string
+      primaryKey: true
 ~~~

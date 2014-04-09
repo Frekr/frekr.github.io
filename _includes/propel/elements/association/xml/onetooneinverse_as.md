@@ -1,9 +1,5 @@
-~~~yaml
-ean:
-  columns:
-    id:
-      unique: true
-      primary: true
-      unique: true
-      type: string
+~~~xml
+<table name="ean">
+	<column name="id" primaryKey="true"/>
+</table>
 ~~~
