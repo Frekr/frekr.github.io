@@ -1,11 +1,16 @@
 ~~~yaml
 itemRecord:
-  type: entity
-  manyToOne:
+  columns:
+    id:
+      unique: true
+      primary: true
+    publisherId:
+      type: integer(255)
+      notnull: true
+  relations:
     publisher:
-      targetEntity: publisher
-      inversedBy: itemRecord
-      joinColumns:
-        publisherId:
-          referencedColumnName: publisher_id
+      class: publisher
+      foreignAlias: itemRecord
+      local: publisherId
+      foreign: id
 ~~~

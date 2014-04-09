@@ -1,17 +1,13 @@
 ~~~yaml
-publisher:
-  type: entity
-  fields:
-    id:
-      id: true
-  oneToMany:
+  relations:
     itemRecord:
-      targetEntity: itemRecord
-      mappedBy: publisher
-      fetch: EAGER
-      indexBy: id
-      cascade: ["all", "merge", "persist", "refresh", "remove"]
-      orderBy:
-        id: ASC
-
+      class: itemRecord
+      foreignAlias: publisher
+      onDelete: SET NULL
+      onUpdate: CASCADE
+      cascade: [(NULL)]
+      type: many
+      foreignType: one
+      local: id
+      foreign: publisherId
 ~~~

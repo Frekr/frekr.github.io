@@ -12,8 +12,6 @@ authorHasitemRecord:
   relations:
     author:
       class: author
-      onDelete: SET NULL
-      onUpdate: CASCADE
       foreignAlias: itemRecord
       local: author_id
       foreign: id

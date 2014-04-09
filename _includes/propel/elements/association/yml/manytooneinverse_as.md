@@ -1,11 +1,7 @@
 ~~~yaml
 publisher:
-  type: entity
-  fields:
+  columns:
     id:
-      id: true
-  oneToMany:
-    itemRecord:
-      targetEntity: itemRecord
-      mappedBy: publisher
+      unique: true
+      primary: true
 ~~~

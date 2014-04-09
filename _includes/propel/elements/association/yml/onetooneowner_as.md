@@ -1,12 +1,15 @@
 ~~~yaml
 itemRecord:
-  type: entity
-  fields:
-  oneToOne:
+  columns:
+    id:
+      unique: true
+      primary: true
+    eanId:
+      unique: true
+      type: integer
     ean:
-      targetEntity: ean
-      inversedBy: itemRecord
-      joinColumns:
-        eanId:
-          referencedColumnName: id
+      class: ean
+      foreignAlias: itemRecord
+      local: eanId
+      foreign: id
 ~~~

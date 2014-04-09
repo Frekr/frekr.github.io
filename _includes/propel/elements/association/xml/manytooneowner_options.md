@@ -1,26 +1,13 @@
-~~~xml
-<entity name="itemRecord">
-  <many-to-one 
-   field="publisher" 
-   target-entity="publisher" 
-   inversed-by="itemRecord" 
-   fetch="EXTRA_LAZY" 
-   orphan-removal="true">
-    <join-columns>
-	  <join-column 
-	   name="publisherId" 
-	   referenced-column-name="publisher_id" 
-	   nullable="false" 
-	   column-definition="itemRecord_publisherId" 
-	   on-delete="CASCADE" 
-	   on-update="RESTRICT"/>
-    </join-columns>
-    <cascade>
-	  <cascade-all/>
-	  <cascade-merge/>
-	  <cascade-persist/>
-	  <cascade-refresh/>
-	  <cascade-remove/>
-    </cascade>
-</many-to-one>
+~~~yaml
+  relations:
+    publisher:
+      class: publisher
+      foreignAlias: itemRecord
+      onDelete: SET NULL
+      onUpdate: CASCADE
+      cascade: [(NULL)]
+      type: one
+      foreignType: many
+      local: publisherId
+      foreign: id
 ~~~

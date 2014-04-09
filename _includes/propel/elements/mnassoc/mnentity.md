@@ -1,1 +1,1 @@
-Does not exist as a Propel object, it is handled internally.
+Many-to-many entity.

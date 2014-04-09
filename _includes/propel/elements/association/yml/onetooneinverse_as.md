@@ -1,10 +1,9 @@
 ~~~yaml
 ean:
-  type: entity
-  fields:
+  columns:
     id:
-  oneToOne:
-    itemRecord:
-      targetEntity: itemRecord
-      mappedBy: ean
+      unique: true
+      primary: true
+      unique: true
+      type: string
 ~~~

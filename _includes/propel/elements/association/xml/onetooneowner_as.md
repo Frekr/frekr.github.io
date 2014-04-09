@@ -1,12 +1,15 @@
-~~~xml
-<entity name="itemRecord">
-	<one-to-one field="ean" target-entity="ean" inversed-by="itemRecord">
-		<join-columns>
-			<join-column 
-			 name="eanId" 
-			 referenced-column-name="id" 
-			 unique="true"/>
-		</join-columns>
-	</one-to-one>
-</entity>
+~~~yaml
+itemRecord:
+  columns:
+    id:
+      unique: true
+      primary: true
+    eanId:
+      unique: true
+      type: integer
+    ean:
+      class: ean
+      foreignAlias: itemRecord
+      local: eanId
+      foreign: id
 ~~~
