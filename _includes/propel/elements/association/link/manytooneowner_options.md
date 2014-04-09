@@ -1,1 +1,1 @@
-Many to one owner side with all properties:
+- [xml mapping](http://propelorm.org/Propel/documentation/04-relationships.html)

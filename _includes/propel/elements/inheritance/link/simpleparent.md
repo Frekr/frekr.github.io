@@ -1,4 +1,1 @@
-- [xml mapping](http://docs.doctrine-project.org/en/2.0.x/reference/xml-mapping.html#defining-inheritance-mappings)
-- [yml mapping](http://docs.doctrine-project.org/en/2.0.x/reference/yaml-mapping.html)
-- [php mapping](http://docs.doctrine-project.org/en/2.0.x/reference/php-mapping.html)
-- [annotation reference](http://docs.doctrine-project.org/en/2.0.x/reference/annotations-reference.html#discriminatormap)
+- [xml mapping](http://propelorm.org/Propel/documentation/09-inheritance.html#single-table-inheritance)

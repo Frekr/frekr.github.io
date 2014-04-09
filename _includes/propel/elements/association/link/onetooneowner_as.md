@@ -1,4 +1,1 @@
-- [xml mapping](http://docs.doctrine-project.org/en/2.0.x/reference/xml-mapping.html#defining-one-to-one-relations)
-- [yml mapping](http://docs.doctrine-project.org/en/2.0.x/reference/yaml-mapping.html)
-- [php mapping](http://docs.doctrine-project.org/en/2.0.x/reference/php-mapping.html)
-- [annotation reference](http://docs.doctrine-project.org/en/2.0.x/reference/annotations-reference.html#onetoone)
+- [xml mapping](http://propelorm.org/Propel/documentation/04-relationships.html#one-to-one-relationships)
