@@ -1,10 +1,9 @@
 ~~~xml
-<entity name="author">
-  <field name="firstName"/>
-  <field name="lastName"/>
-  <field name="birthDate"/>
-  <indexes>
-    <index name="ix_name_last" columns="lastName"/>
-  </indexes>
-</entity>
+<table name="author">
+  <column name="firstName"/>
+  <column name="lastName"/>
+  <index name="ix_name_last">
+    <index-column name="lastName"/>
+  </index>
+</table>
 ~~~

@@ -1,12 +1,12 @@
 ~~~xml
-<entity name="author">
-  <field name="firstName"/>
-  <field name="lastName"/>
-  <field name="birthDate"/>
-  <unique-constraints>
-    <unique-constraint 
-		 name="ix_first_name_last_name_date" 
-		 columns="firstName,lastName,birthDate"/>
-  </unique-constraints>
-</entity>
+<table name="author">
+  <column name="firstName"/>
+  <column name="lastName"/>
+  <column name="birthDate"/>
+  <unique name="ix_first_name_last_name_date">
+    <unique-column name="firstName"/>
+    <unique-column name="lastName"/>
+    <unique-column name="birthDate"/>
+  </unique>
+</table>
 ~~~

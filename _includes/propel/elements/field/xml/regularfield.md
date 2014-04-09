@@ -1,3 +1,3 @@
 ~~~xml
-<field name="name" type="string" length="255" nullable="true"/>
+<column name="name" type="string" size="255" required="true"/>
 ~~~

@@ -1,6 +1,7 @@
 ~~~yaml
+  itemRecord:
     name:
       type: string
-      unique: true
-      length: 255
+      size: 255
+      required: true
 ~~~

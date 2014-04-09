@@ -1,5 +1,6 @@
 ~~~xml
-<id name="id" type="integer" length="255">
-  <generator strategy="AUTO"/>
-</id>
+<column name="id" type="integer" size="255" required="true" autoIncrement="true" primaryKey="true"/>
+<unique name="IX_UQ_itemRecord_id">
+  <unique-column name="id"/>
+</unique>
 ~~~

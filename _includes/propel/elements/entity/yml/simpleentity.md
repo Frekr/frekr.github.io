@@ -1,19 +1,17 @@
 ~~~yaml
-author:
-  type: entity
-  fields:
+  author:
     id:
-      id: true
       type: integer
-      generator:
-        strategy: AUTO
+      size: 255
+      required: true
+      autoIncrement: true
+      primaryKey: true
     firstName:
       type: string
-      nullable: false
+      required: true
     lastName:
       type: string
-      nullable: false
+      required: true
     birthDate:
       type: string
-      nullable: true
 ~~~

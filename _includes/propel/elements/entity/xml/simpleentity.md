@@ -1,10 +1,8 @@
 ~~~xml
-<entity name="author">
-  <id name="id" type="integer">
-    <generator strategy="AUTO"/>
-  </id>
-  <field name="firstName" type="string" nullable="false"/>
-  <field name="lastName" type="string" nullable="false"/>
-  <field name="birthDate" type="string" nullable="true"/>
-</entity>
+<table name="author">
+  <column name="id" type="integer" size="255" required="true" autoIncrement="true" primaryKey="true"/>
+  <column name="firstName" type="string" required="true"/>
+  <column name="lastName" type="string" required="true"/>
+  <column name="birthDate" type="string"/>
+</table>
 ~~~

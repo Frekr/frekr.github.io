@@ -1,11 +1,7 @@
-~~~YAML
-author:
-  type: entity
-  fields:
+~~~yaml
+  author:
     firstName:
     lastName:
-    birthDate:
-  indexes:
-    ix_name_last:
-      columns: [lastName]
+    _indexes:
+      ix_name_last: [lastName]
 ~~~
