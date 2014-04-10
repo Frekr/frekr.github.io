@@ -1,13 +1,15 @@
 ~~~yaml
-  relations:
-    publisher:
-      class: publisher
-      foreignAlias: itemRecord
-      onDelete: SET NULL
+  itemRecord:
+    id:
+      primaryKey: true
+    publisherId:
+      type: integer
+      size: 255
+      required: true
+      foreignTable: publisher
+      foreignReference: id
+      onDelete: SETNULL
       onUpdate: CASCADE
-      cascade: [(NULL)]
-      type: one
-      foreignType: many
-      local: publisherId
-      foreign: id
+    _uniques:
+      IX_UQ_itemRecord_id: [id]
 ~~~

@@ -21,5 +21,8 @@
  treeMode="MaterializedPath">
   <column name="id"/>
   ....
+  <vendor type="mysql">
+    <parameter name="Engine" value="InnoDB"/>
+  </vendor>
 </table>  
 ~~~
