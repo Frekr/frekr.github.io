@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
   itemRecord:
     id:
       primaryKey: true

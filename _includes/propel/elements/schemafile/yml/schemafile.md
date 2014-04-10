@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
 propel:
   book:
   itemRecordHasAuthor:
