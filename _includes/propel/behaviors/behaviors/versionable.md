@@ -1,1 +1,1 @@
-The versionable behavior provides versioning capabilities to any ActiveRecord object.
+The `versionable` behavior provides versioning capabilities to any ActiveRecord object.

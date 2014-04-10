@@ -1,1 +1,1 @@
-The auto_add_pk behavior adds a primary key columns to the tables that don't have one.
+The `auto_add_pk` behavior adds a primary key columns to the tables that don't have one.
