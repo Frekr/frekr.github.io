@@ -1,7 +1,7 @@
 ~~~yaml
-publisher:
-  columns:
+  publisher:
     id:
-      unique: true
-      primary: true
+      primaryKey: true
+    _uniques:
+      IX_UQ_publisher_id: [id]
 ~~~

@@ -1,18 +1,12 @@
-~~~yaml
-authorHasitemRecord:
-  columns:
-    author_id:
-      primary: true
-      type: integer(255)
-      notnull: true
-    item_record_id:
-      primary: true
-      type: integer(255)
-      notnull: true
-  relations:
-    author:
-      class: author
-      foreignAlias: itemRecord
-      local: author_id
-      foreign: id
+~~~xml
+<table name="itemRecordHasAuthor" isCrossRef="true">
+	<column name="bookId" type="integer" required="true" primaryKey="true"/>
+	<column name="authorId" type="integer" required="true" primaryKey="true"/>
+	<foreign-key foreignTable="author">
+		<reference local="authorId" foreign="id"/>
+	</foreign-key>
+	<foreign-key foreignTable="itemRecord">
+		<reference local="bookId" foreign="id"/>
+	</foreign-key>
+</table>
 ~~~

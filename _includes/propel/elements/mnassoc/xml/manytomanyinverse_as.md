@@ -1,13 +1,8 @@
-~~~YAML
-author:
-  columns:
-    id:
-      unique: true
-      primary: true
-  relations:
-    ItemRecords:
-      class: itemRecord
-      refClass: authorHasitemRecord
-      local: author_id
-      foreign: item_record_id
+~~~xml
+<table name="author">
+	<column name="id" primaryKey="true"/>
+	<unique name="IX_UQ_author_id">
+		<unique-column name="id"/>
+	</unique>
+</table>
 ~~~

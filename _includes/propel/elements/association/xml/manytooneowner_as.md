@@ -1,16 +1,8 @@
-~~~yaml
-itemRecord:
-  columns:
-    id:
-      unique: true
-      primary: true
-    publisherId:
-      type: integer(255)
-      notnull: true
-  relations:
-    publisher:
-      class: publisher
-      foreignAlias: itemRecord
-      local: publisherId
-      foreign: id
+~~~xml
+<table name="itemRecord">
+	<column name="id" primaryKey="true"/>
+	<foreign-key foreignTable="publisher">
+		<reference foreign="id" local="publisherId"/>
+	</foreign-key>
+</table>
 ~~~

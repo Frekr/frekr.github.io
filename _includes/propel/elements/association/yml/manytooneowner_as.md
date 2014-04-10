@@ -1,16 +1,11 @@
 ~~~yaml
-itemRecord:
-  columns:
+  itemRecord:
     id:
-      unique: true
-      primary: true
+      primaryKey: true
     publisherId:
-      type: integer(255)
-      notnull: true
-  relations:
-    publisher:
-      class: publisher
-      foreignAlias: itemRecord
-      local: publisherId
-      foreign: id
+      type: integer
+      size: 255
+      required: true
+      foreignTable: publisher
+      foreignReference: id
 ~~~
