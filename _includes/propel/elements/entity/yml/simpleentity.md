@@ -7,11 +7,11 @@
       autoIncrement: true
       primaryKey: true
     firstName:
-      type: string
+      type: Varchar
       required: true
     lastName:
-      type: string
+      type: Varchar
       required: true
     birthDate:
-      type: string
+      type: Varchar
 ~~~

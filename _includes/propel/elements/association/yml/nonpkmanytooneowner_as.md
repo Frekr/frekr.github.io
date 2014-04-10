@@ -3,9 +3,9 @@
     id:
       primaryKey: true
     publisher_name:
-      type: string
+      type: Varchar
     publisher_vat_code:
-      type: string
+      type: Varchar
     _uniques:
       IX_UQ_itemRecord_id: [id]
     _foreignKeys:

@@ -3,9 +3,9 @@
     id:
       primaryKey: true
     name:
-      type: string
+      type: Varchar
     vatCode:
-      type: string
+      type: Varchar
       required: true
     _uniques:
       IX_UQ_publisher_id: [id]

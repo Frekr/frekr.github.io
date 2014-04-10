@@ -3,9 +3,9 @@
     id:
       primaryKey: true
     firstName:
-      type: string
+      type: Varchar
     lastName:
-      type: string
+      type: Varchar
     _uniques:
       IX_UQ_author_id: [id]
 ~~~

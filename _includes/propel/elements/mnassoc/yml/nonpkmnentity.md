@@ -3,7 +3,7 @@
     _attributes:
       isCrossRef: true
     author_first_name:
-      type: string
+      type: Varchar
       required: true
       primaryKey: true
     item_record_id:
@@ -14,7 +14,7 @@
       foreignTable: itemRecord
       foreignReference: id
     author_last_name:
-      type: string
+      type: Varchar
       required: true
       primaryKey: true
     _foreignKeys:

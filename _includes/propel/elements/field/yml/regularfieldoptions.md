@@ -2,7 +2,7 @@
   itemRecord:
     name:
       description: regular field
-      type: string
+      type: Varchar
       size: 255
       default: Frank
       required: true
@@ -14,8 +14,8 @@
       lazyLoad: true
       phpName: Name
       phpNamingMethod: underscore
-      phpType: string
-      primaryString: true
+      phpType: Varchar
+      primaryVarchar: true
       scale: 0
       tableMapName: /table map name/
       sqlType: /SQL type used in CREATE and ALTER statements/

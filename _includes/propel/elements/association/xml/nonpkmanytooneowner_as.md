@@ -1,8 +1,8 @@
 ~~~xml
 <table name="itemRecord">
 	<column name="id" primaryKey="true"/>
-	<column name="publisher_name" type="string"/>
-	<column name="publisher_vat_code" type="string"/>
+	<column name="publisher_name" type="Varchar"/>
+	<column name="publisher_vat_code" type="Varchar"/>
 	<unique name="IX_UQ_itemRecord_id">
 		<unique-column name="id"/>
 	</unique>

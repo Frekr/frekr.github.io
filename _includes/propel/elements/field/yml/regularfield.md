@@ -1,7 +1,7 @@
 ~~~yaml
   itemRecord:
     name:
-      type: string
+      type: Varchar
       size: 255
       required: true
 ~~~

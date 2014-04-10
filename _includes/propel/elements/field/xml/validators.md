@@ -1,5 +1,5 @@
 ~~~xml
-<column name="item" type="string"/>
+<column name="item" type="Varchar"/>
 <validator column="item">
   <rule name="/validator class/" value="/value/" message="/custom message/"/>
   <rule name="match" value="/regexp/" message="Does match the regexp"/>

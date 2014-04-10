@@ -6,7 +6,7 @@
       autoIncrement: true
       primaryKey: true
     cover:
-      type: string
+      type: Varchar
     _uniques:
       IX_UQ_book_id: [id]
 ~~~

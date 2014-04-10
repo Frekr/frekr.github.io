@@ -1,3 +1,3 @@
 ~~~xml
-<column name="name" type="string" size="255" required="true"/>
+<column name="name" type="Varchar" size="255" required="true"/>
 ~~~

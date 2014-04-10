@@ -13,7 +13,7 @@
       phpName: Id
       phpNamingMethod: underscore
       phpType: integer
-      primaryString: true
+      primaryVarchar: true
       scale: 2
       onDelete: RESTRICT
       peerName: /peer name/
