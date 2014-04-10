@@ -1,18 +1,19 @@
 ~~~yaml
-authorHasitemRecord:
-  columns:
+  authorHasitemRecord:
+    _attributes:
+      isCrossRef: true
     author_id:
-      primary: true
-      type: integer(255)
-      notnull: true
+      type: integer
+      size: 255
+      required: true
+      primaryKey: true
+      foreignTable: author
+      foreignReference: id
     item_record_id:
-      primary: true
-      type: integer(255)
-      notnull: true
-  relations:
-    author:
-      class: author
-      foreignAlias: itemRecord
-      local: author_id
-      foreign: id
+      type: integer
+      size: 255
+      required: true
+      primaryKey: true
+      foreignTable: itemRecord
+      foreignReference: id
 ~~~

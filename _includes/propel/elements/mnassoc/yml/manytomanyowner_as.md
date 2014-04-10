@@ -1,13 +1,7 @@
-~~~YAML
-itemRecord:
-  columns:
+~~~yaml
+  itemRecord:
     id:
-      unique: true
-      primary: true
-  relations:
-    Authors:
-      class: author
-      refClass: authorHasitemRecord
-      local: item_record_id
-      foreign: author_id
+      primaryKey: true
+    _uniques:
+      IX_UQ_itemRecord_id: [id]
 ~~~

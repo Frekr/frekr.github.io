@@ -1,18 +1,21 @@
 ~~~yaml
-itemRecord:
-  columns:
+  itemRecord:
     id:
-      unique: true
-      primary: true
-      type: integer(255)
+      primaryKey: true
     publisher_name:
       type: string
     publisher_vat_code:
       type: string
-  relations:
-    Publisher:
-      class: publisher
-      foreignAlias: ItemRecord
-      local: publisher_name
-      foreign: name
+    _uniques:
+      IX_UQ_itemRecord_id: [id]
+    _foreignKeys:
+      :
+        foreignTable: publisher
+        references:
+          - 
+            local: publisher_name
+            foreign: name
+          - 
+            local: publisher_vat_code
+            foreign: vatCode
 ~~~

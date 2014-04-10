@@ -1,15 +1,12 @@
 ~~~yaml
-publisher:
-  columns:
+  publisher:
     id:
-      unique: true
-      primary: true
-      type: integer(255)
-      notnull: true
-      autoincrement: true
+      primaryKey: true
     name:
       type: string
     vatCode:
       type: string
-      notnull: true
+      required: true
+    _uniques:
+      IX_UQ_publisher_id: [id]
 ~~~
