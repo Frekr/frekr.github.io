@@ -1,12 +1,11 @@
 ~~~xml
-<entity name="itemRecord" inheritance-type="SINGLE_TABLE">
-  <id name="id"/>
-  <discriminator-column name="item" type="string"/>
-	<discriminator-map>
-		<discriminator-mapping class="itemRecord" value="itemRecord"/>
-		<discriminator-mapping class="book" value="book"/>
-		<discriminator-mapping class="magazine" value="magazine"/>
-		<discriminator-mapping class="audioRecord" value="audioRecord"/>
-	</discriminator-map>
-</entity>
+<table name="itemRecord">
+	<column name="id" primaryKey="true"/>
+	<column name="item" type="string" inheritance="single">
+		<inheritance key="itemRecord" class="itemRecord"/>
+		<inheritance key="book" class="book" extends="itemRecord"/>
+		<inheritance key="magazine" class="magazine" extends="itemRecord"/>
+		<inheritance key="audioRecord" class="audioRecord" extends="itemRecord"/>
+	</column>
+</table>
 ~~~

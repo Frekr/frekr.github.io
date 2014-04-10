@@ -1,12 +1,12 @@
 ~~~xml
-<table name="itemRecordHasAuthor" isCrossRef="true">
-	<column name="bookId" type="integer" required="true" primaryKey="true"/>
-	<column name="authorId" type="integer" required="true" primaryKey="true"/>
-	<foreign-key foreignTable="author">
-		<reference local="authorId" foreign="id"/>
-	</foreign-key>
+<table name="authorHasitemRecord" isCrossRef="true">
+	<column name="author_id" primaryKey="true"/>
+	<column name="item_record_id" primaryKey="true"/>
 	<foreign-key foreignTable="itemRecord">
-		<reference local="bookId" foreign="id"/>
+		<reference local="item_record_id" foreign="id"/>
+	</foreign-key>
+	<foreign-key foreignTable="author">
+		<reference local="author_id" foreign="id"/>
 	</foreign-key>
 </table>
 ~~~
