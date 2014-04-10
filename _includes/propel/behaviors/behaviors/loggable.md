@@ -1,1 +1,0 @@
-Loggable behavior tracks your record changes and is able to manage versions.

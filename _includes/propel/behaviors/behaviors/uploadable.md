@@ -1,1 +1,0 @@
-Uploadable behavior provides the tools to manage the persistence of files with Propel, including automatic handling of moving, renaming and removal of files and other features.

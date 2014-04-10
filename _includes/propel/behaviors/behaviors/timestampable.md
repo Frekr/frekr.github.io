@@ -1,1 +1,0 @@
-Timestampable behavior will automate the update of date fields on your Entities or Documents.

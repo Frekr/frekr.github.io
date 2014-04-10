@@ -1,1 +1,0 @@
-SoftDeleteable behavior allows to "soft delete" objects, filtering them at SELECT time by marking them as with a timestamp, but not explicitly removing them from the database.
