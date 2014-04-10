@@ -1,1 +1,1 @@
-[propel documentation](http://propelorm.org/Propel/behaviors/sortable)
+The sortable behavior allows a model to become an ordered list, and provides numerous methods to traverse this list in an efficient way.
