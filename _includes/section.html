@@ -27,25 +27,25 @@
   {% capture panelIdMore %}panel{{GlobalElementCounter}}-4{% endcapture %}
 {% endif %}
 
-{%if usedtabs contains 'php' %}
-  {% assign isActive='php' %}
-  {% assign isPhp='true' %}
-   
-  {% capture panelIdPhp %}panel{{GlobalElementCounter}}-3{% endcapture %}
-{% endif %}
-
 {%if usedtabs contains 'yml' %}
   {% assign isActive='yml' %}
   {% assign isYml='true' %}
     
-  {% capture panelIdYml %}panel{{GlobalElementCounter}}-2{% endcapture %}
+  {% capture panelIdYml %}panel{{GlobalElementCounter}}-3{% endcapture %}
 {% endif %}
 
 {%if usedtabs contains 'xml' %}
   {% assign isActive='xml' %}
   {% assign isXml='true' %}
     
-  {% capture panelIdXml %}panel{{GlobalElementCounter}}-1{% endcapture %}
+  {% capture panelIdXml %}panel{{GlobalElementCounter}}-2{% endcapture %}
+{% endif %}
+
+{%if usedtabs contains 'php' %}
+  {% assign isActive='php' %}
+  {% assign isPhp='true' %}
+   
+  {% capture panelIdPhp %}panel{{GlobalElementCounter}}-1{% endcapture %}
 {% endif %}
 
 <!-- which content is used -->
