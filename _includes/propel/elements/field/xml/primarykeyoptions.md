@@ -1,15 +1,29 @@
 ~~~xml
-<id name="id" type="integer" length="255" column="itemRecord_id" 
-column-definition="itemRecord_id" precision="3" scale="3" version="true">
-  <generator strategy="SEQUENCE"/>
-  <sequence-generator 
-  allocation-size="1" 
-  initial-value="1" 
-  sequence-name="itemRecord_id_seq"/>
-  <options>
-    <option name="unsigned" value="true"/>
-    <option name="comment" value="this is primary key"/>
-    <option name="version" value="2"/>
-  </options>
-</id>
+<column 
+ name="id" 
+ type="integer" 
+ size="255" 
+ required="true" 
+ autoIncrement="true" 
+ primaryKey="true" 
+ defaultExpr="/defaultSQLexpression/" 
+ description="this is primary key" 
+ inheritance="single" 
+ lazyLoad="true" 
+ phpName="Id" 
+ phpNamingMethod="underscore" 
+ phpType="integer" 
+ primaryString="true" 
+ scale="2" 
+ onDelete="RESTRICT" 
+ peerName="/peer name/" 
+ isCulture="true" 
+ inputValidator="/input validator/" 
+ sqlType="integer" 
+ tableMapName="/table map name/"
+ />
+
+<unique name="IX_UQ_itemRecord_id">
+  <unique-column name="id"/>
+</unique>
 ~~~

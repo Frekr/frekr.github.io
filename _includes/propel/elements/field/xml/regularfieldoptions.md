@@ -1,17 +1,25 @@
 ~~~xml
-<field name="item" type="string" length="255" nullable="false" column="itemRecord_name" column-definition="itemRecord_name" precision="1" scale="1" version="false">
-  <generator>
-    <strategy>UUID</strategy>
-  </generator>
-  <sequence-generator>
-    <allocation-size>2</allocation-size>
-    <initial-value>1</initial-value>
-    <sequence-name>itemRecord_name_seq</sequence-name>
-  </sequence-generator>
-  <options>
-    <option name="comment" value="this is field"/>
-    <option name="unsigned" value="true"/>
-    <option name="version" value="3"/>
-  </options>
-</field>
+<column 
+ name="name" 
+ description="regular field" 
+ type="string" 
+ size="255" 
+ required="true" 
+ valueSet="Frank, Carl, Victor, Bob" 
+ defaultExpr="/defaultSQLexpression/" 
+ defaultValue="name" 
+ inheritance="single" 
+ inputValidator="/inputValidator/" 
+ lazyLoad="true" 
+ phpName="Name" 
+ phpNamingMethod="underscore" 
+ phpType="string" 
+ primaryString="true" 
+ scale="0" 
+ tableMapName="/table map name/" 
+ sqlType="/SQL type used in CREATE and ALTER statements/" 
+ peerName="/peer name/" 
+ onDelete="CASCADE" 
+ isCulture="true"
+ />
 ~~~

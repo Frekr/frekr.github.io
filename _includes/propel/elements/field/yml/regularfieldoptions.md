@@ -1,20 +1,25 @@
 ~~~yaml
-itemRecord:
-  type: entity
-  fields:
-    item:
+  itemRecord:
+    name:
+      description: regular field
       type: string
-      length: 255
-      nullable: false
-      column: itemRecord_name
-      columnDefinition: itemRecord_name
-      precision: 1
-      scale: 1
-      version: false
-      generator: 
-      sequence-generator: 
-      options:
-        comment: this is field
-        unsigned: true
-        version: 3
+      size: 255
+      default: Frank
+      required: true
+      valueSet: Frank, Carl, Victor, Bob
+      defaultExpr: /defaultSQLexpression/
+      defaultValue: name
+      inheritance: single
+      inputValidator: /inputValidator/
+      lazyLoad: true
+      phpName: Name
+      phpNamingMethod: underscore
+      phpType: string
+      primaryString: true
+      scale: 0
+      tableMapName: /table map name/
+      sqlType: /SQL type used in CREATE and ALTER statements/
+      peerName: /peer name/
+      onDelete: CASCADE
+      isCulture: true
 ~~~

@@ -1,24 +1,24 @@
 ~~~yaml
-itemRecord:
-  type: entity
-  fields:
+  itemRecord:
     id:
-      id: true
       type: integer
-      length: 255
-      column: itemRecord_id
-      columnDefinition: itemRecord_id
-      precision: 3
-      scale: 3
-      version: true
-      generator:
-        strategy: SEQUENCE
-      sequence-generator:
-        allocationSize: 1
-        initialValue: 1
-        sequenceName: itemRecord_id_seq
-      options:
-        unsigned: true
-        comment: this is primary key
-        version: 2
+      size: 255
+      required: true
+      autoIncrement: true
+      primaryKey: true
+      defaultExpr: /defaultSQLexpression/
+      description: this is primary key
+      inheritance: single
+      lazyLoad: true
+      phpName: Id
+      phpNamingMethod: underscore
+      phpType: integer
+      primaryString: true
+      scale: 2
+      onDelete: RESTRICT
+      peerName: /peer name/
+      isCulture: true
+      inputValidator: /input validator/
+      sqlType: integer
+      tableMapName: /table map name/
 ~~~
