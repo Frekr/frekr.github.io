@@ -1,11 +1,24 @@
-Generate the database schema:
+####Set Up Build Configuration
+
+Propel expects the build configuration to be stored in a file called `build.properties`, and stored at the same level as the `schema.xml`. Here is an example for a MySQL database:
 
 ~~~
-$ php doctrine orm:schema-tool:create
+# Database driver
+propel.database = mysql
+
+# Project name
+propel.project = MyProject
+~~~
+
+####Use the propel Script To Build The SQL Code
 
 ~~~
-Update the database schema:
+$ cd /path/to/my/project
+$ propel sql:build
+~~~
+
+####Generate Model Classes
 
 ~~~
-$ php doctrine orm:schema-tool:update
+$ propel model:build
 ~~~
