@@ -123,6 +123,7 @@ propel.defaultDateFormat =
 
 # A better Pluralizer
 propel.builder.pluralizer.class = builder.util.StandardEnglishPluralizer
+~~~
 
 ####Build properties
 
