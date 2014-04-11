@@ -1,4 +1,5 @@
 Go to the project directory anywhere on your filesystem:
+
 ~~~
 $ cd MyProject
 ~~~

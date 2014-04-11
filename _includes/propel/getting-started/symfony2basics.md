@@ -30,6 +30,7 @@ You can choose which Form Type to build by specifing Model names:
 ####Migrations
 
 Generates SQL diff between the XML schemas and the current database structure:
+
 ~~~
 > php app/console propel:migration:generate-diff
 ~~~
@@ -67,6 +68,7 @@ You can drop one or several tables:
 ~~~
 
 ####Working with existing databases
+
 Run the following command to generate an XML schema from your default database:
 
 ~~~

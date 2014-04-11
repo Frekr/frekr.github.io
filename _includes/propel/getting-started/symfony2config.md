@@ -84,7 +84,7 @@ propel:
                     ATTR_EMULATE_PREPARES: true
                 settings:
                     charset:        { value: UTF8 }
-                    queries:        { query: 'INSERT INTO BAR ('hey', 'there')' }
+                    queries:        { query: "INSERT INTO BAR ('hey', 'there')" }
 ~~~
 
 ####Logging
@@ -138,7 +138,7 @@ propel:
         // ...
 ~~~
 
-####Behaviors¶
+####Behaviors
 
 ~~~yaml
 # app/config/config.yml
