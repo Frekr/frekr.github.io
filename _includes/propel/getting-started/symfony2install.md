@@ -1,5 +1,3 @@
-###Installation
-
 ####Composer (recommended):
 
 ~~~json
@@ -37,8 +35,9 @@ Instead of using svn, you can clone the unofficial Git repositories:
 
 ~~~
 > git submodule add https://github.com/propelorm/Propel.git vendor/propel
-Instead of doing this manually, you can use the Symfony vendor management via the deps file. If you are using a Symfony2 2.x.x version (actually, a version which is not 2.1 or above), be sure to deps.lock the PropelBundle to a commit on the 2.0 branch, which does not use the Bridge
 ~~~
+
+Instead of doing this manually, you can use the Symfony vendor management via the deps file. If you are using a Symfony2 2.x.x version (actually, a version which is not 2.1 or above), be sure to deps.lock the PropelBundle to a commit on the 2.0 branch, which does not use the Bridge
 
 ###Bundle registration
 
