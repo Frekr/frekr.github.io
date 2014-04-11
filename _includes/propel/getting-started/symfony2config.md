@@ -28,45 +28,7 @@ propel:
         attributes:           {}
 ~~~
 
-If you have more than one connection, or want to use a named connection, the configuration will look like:
-
-~~~yaml
-# app/config/config*.yml
-propel:
-    dbal:
-        default_connection:         conn1
-        connections:
-            conn1:
-                driver:             mysql
-                user:               root
-                password:           null
-                dsn:                mysql:host=localhost;dbname=db1
-            conn2:
-                driver:             mysql
-                user:               root
-                password:           null
-                dsn:                mysql:host=localhost;dbname=db2
-~~~
-
-####Configure Master/Slaves
-
-~~~yaml
-# app/config/config*.yml
-propel:
-    dbal:
-        default_connection:         default
-        connections:
-            default:
-                driver:             mysql
-                user:               root
-                password:           null
-                dsn:                mysql:host=localhost;dbname=master
-                slaves:
-                    slave_1:
-                        user:       root
-                        password:   null
-                        dsn:        mysql:host=localhost;dbname=slave_1
-~~~
+More details can be found in [Propel documentation]()
 
 ####Attributes, Options, Settings
 
@@ -123,26 +85,4 @@ propel.defaultDateFormat =
 
 # A better Pluralizer
 propel.builder.pluralizer.class = builder.util.StandardEnglishPluralizer
-~~~
-
-####Build properties
-
-You can define build properties by creating a `propel.ini` file in `app/config` like below, but you can also follow the Symfony2 convention by adding build properties in `app/config/config.yml`:
-
-~~~yaml
-# app/config/config.yml
-propel:
-    build_properties:
-        xxxxx.xxxx.xxxxx:   XXXX
-        xxxxx.xxxx.xxxxx:   XXXX
-        // ...
-~~~
-
-####Behaviors
-
-~~~yaml
-# app/config/config.yml
-propel:
-    behaviors:
-        behavior_name: My\Bundle\Behavior\BehaviorClassName
-~~~     
+~~~   

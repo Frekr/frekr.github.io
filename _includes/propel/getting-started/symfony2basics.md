@@ -12,21 +12,6 @@ Drop a database:
 > php app/console propel:database:drop [--connection[=""]] [--force]
 ~~~
 
-####Form Types
-
-Generate stub classes based on your `schema.xml` in a given bundle:
-
-~~~
-> php app/console propel:form:generate [-f|--force] bundle [models1] ... [modelsN]
-~~~
-It will write `Form Type` classes in `src/YourVendor/YourBundle/Form/Type`.
-
-You can choose which Form Type to build by specifing Model names:
-
-~~~
-> php app/console propel:form:generate @AcmeDemoBundle Book Author
-~~~
-
 ####Migrations
 
 Generates SQL diff between the XML schemas and the current database structure:
