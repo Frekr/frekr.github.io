@@ -1,4 +1,4 @@
-~~~xml
+~~~XML
 <column 
  name="id" 
  type="integer" 
@@ -21,8 +21,12 @@
  inputValidator="/input validator/" 
  sqlType="integer" 
  tableMapName="/table map name/"
- />
-
+ >
+  <vendor type="">
+    <parameter name="Engine" value="InnoDB"/>
+    <parameter name="Charset" value="utf8"/>
+  </vendor>
+</column>
 <unique name="IX_UQ_itemRecord_id">
   <unique-column name="id"/>
 </unique>
