@@ -1,4 +1,4 @@
-~~~XML
+~~~xml
 <column 
  name="id" 
  type="integer" 

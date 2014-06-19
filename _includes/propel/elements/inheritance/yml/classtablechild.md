@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
   book:
     id:
       type: integer
