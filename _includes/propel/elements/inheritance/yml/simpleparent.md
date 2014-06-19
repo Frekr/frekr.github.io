@@ -8,10 +8,15 @@
       column: name
       classes: 
     _inheritance:
+      column: cover
+      classes:     
+    _inheritance:
+      column: issue
+      classes: 
+    _inheritance:
       column: item
       classes:
         itemRecord: ItemRecord
         book: book
         magazine: magazine
-        audioRecord: audioRecord
 ~~~
