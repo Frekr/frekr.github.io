@@ -1,4 +1,4 @@
-~~~yaml
+~~~YAML
 book:
   columns:
     id:

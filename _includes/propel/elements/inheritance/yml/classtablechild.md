@@ -9,7 +9,4 @@
       type: Varchar
     _uniques:
       IX_UQ_book_id: [id]
-    _propel_behaviors:
-      delegate:
-        to: itemRecord
 ~~~

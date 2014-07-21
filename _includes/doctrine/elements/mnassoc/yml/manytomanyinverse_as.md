@@ -1,4 +1,4 @@
-~~~yaml
+~~~YAML
 author:
   columns:
     id:

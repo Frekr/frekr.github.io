@@ -1,9 +1,12 @@
 ~~~yaml
   book:
     id:
+      type: integer
+      required: true
+      autoIncrement: true
+      primaryKey: true
     cover:
       type: Varchar
-    _propel_behaviors:
-      concrete_inheritance:
-        extends: itemRecord
+    _uniques:
+      IX_UQ_book_id: [id]
 ~~~

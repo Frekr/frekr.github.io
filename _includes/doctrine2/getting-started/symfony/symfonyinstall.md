@@ -6,7 +6,7 @@ $ svn co http://svn.symfony-project.org/plugins/sfDoctrinePlugin/branches/1.3-2.
 
 Now you just need to enable the plugin:
 
-~~~php
+~~~PHP
 class ProjectConfiguration extends sfProjectConfiguration
 {
   public function setup()

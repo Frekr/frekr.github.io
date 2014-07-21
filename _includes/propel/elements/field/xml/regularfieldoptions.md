@@ -21,10 +21,5 @@
  peerName="/peer name/" 
  onDelete="CASCADE" 
  isCulture="true"
- >
-       <vendor type="">
-        <parameter name="Engine" value="InnoDB"/>
-        <parameter name="Charset" value="utf8"/>
-      </vendor>
-    </column>
+ />
 ~~~

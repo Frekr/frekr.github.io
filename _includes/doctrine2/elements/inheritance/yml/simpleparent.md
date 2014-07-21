@@ -1,4 +1,4 @@
-~~~yaml
+~~~YAML
 itemRecord:
   type: entity
   inheritanceType: SINGLE_TABLE

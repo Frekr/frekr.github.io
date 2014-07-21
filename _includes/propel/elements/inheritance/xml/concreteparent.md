@@ -1,7 +1,8 @@
 ~~~xml
 <table name="itemRecord">
-  <column name="id" type="integer" primaryKey="true">
 	<column name="id" primaryKey="true"/>
-	<column name="item" type="Varchar"/>
+	<unique name="IX_UQ_itemRecord_id">
+		<unique-column name="id"/>
+	</unique>
 </table>
 ~~~

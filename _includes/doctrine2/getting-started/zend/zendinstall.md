@@ -11,7 +11,7 @@ cp vendor/zendframework/zend-developer-tools/config/zenddevelopertools.local.php
 ~~~
 Enable the modules in `config/application.config.php`:
 
-~~~php
+~~~PHP
 return array(
     'modules' => array(
         'ZendDeveloperTools',
