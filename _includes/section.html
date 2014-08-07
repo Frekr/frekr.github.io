@@ -112,7 +112,7 @@
       
    
       {% if imgfile != '' %}
-      {% capture alttext %} {{imgsource}}{{imgfile}}.alttext.html {% endcapture %}
+      {% capture alttext %}{% include {{imgsource}}{{imgfile}}.alttext.html %}{% endcapture %}
       {% include /images/model.png.alttext.html %}
       
          <div class="large-4 large-centered columns">
