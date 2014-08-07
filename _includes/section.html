@@ -112,8 +112,10 @@
       
    
       {% if imgfile != '' %}
+      
       {% capture alttext %}{%include {{imgsource}}{{imgfile}}.alttext.md%}{% endcapture %}
-      %include {{imgsource}}{{imgfile}}.alttext.md%
+      
+      {%include {{imgsource}}{{imgfile}}.alttext.md%}
          <div class="large-4 large-centered columns">
             <div class="image-tab">
               <a href="#skipper"><img class="image-element" alt="alttext + bonus" src="{{imgsource}}{{imgfile}}"/></a>
